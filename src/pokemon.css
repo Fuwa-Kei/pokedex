@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "pokemon";
+    src: url("./PokemonGb-RAeo.ttf");
+}
+
+.pokeCard {
+    text-transform: uppercase;
+    font-family: "pokemon";
+}
+
+.pokemonName {
+    display:flex;
+    gap: 20px;
+}
+.pokeImg {
+    width: 200px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.pokeName {
+    height: 130px;
+    width: 200px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: left;
+    position: relative;
+}
+
+.hpBar {
+    position: relative;
+}
+
+.hpBar::after {
+    content: '';
+    background: green;
+    width: 120px;
+    height: 8px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 40%;
+    right: 15%;
+}
+
+.hp{
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+}
+
+.id {
+    text-transform: none;
+}
+
+.pokemonStats {
+    display:flex;
+    gap: 20px;
+}
+
+.pokestats {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: thick double black;
+    padding-top: 10px;
+}
+
+.pokeType {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+p{
+    margin: 0;
+}
+
+span {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.pokestats span {
+    margin-left: 80px;;
+}
+
