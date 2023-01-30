@@ -22,9 +22,13 @@
     padding-top: 10px;
 }
 
+.pokeImg img {
+    width: 150%;
+}
+
 .pokeName {
     height: 130px;
-    width: 200px;
+    width: 230px;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
     text-align: left;
