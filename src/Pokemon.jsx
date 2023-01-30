@@ -1,13 +1,13 @@
 import React from 'react'
 import './pokemon.css'
 
-function Pokemon({img, name, hp, attack, defense, speed, special, type, ability1, ability2}) {
+function Pokemon({id, img, name, hp, attack, defense, speed, special, type, ability1, ability2}) {
   return (
     <div className="pokeCard">
         <div className="pokemonName">
             <div className="pokeImg">
                 <img src={img} alt={name} />
-                <p className='id'>No.150</p>
+                <p className='id'>No.{id}</p>
             </div>
             <div className="pokeName">
                 <h2>{name}</h2>

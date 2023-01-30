@@ -58,6 +58,7 @@ function App() {
          {!chosen ? (<hr />)
          : (
             <Pokemon 
+            id={pokemon.id}
             img={pokemon.img}
             attack={pokemon.attack}
             defense={pokemon.defense}
